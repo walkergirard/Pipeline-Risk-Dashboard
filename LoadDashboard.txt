@@ -1,0 +1,17 @@
+Here are instructions on how to view the dashboard.
+Throughout the process of creating it, it has been loaded in locally through command prompt.
+First download all the files off GitHub (GeoJSON folder from Google Drive (Listed below the steps) and put them all in one folder.
+
+Steps:
+1. First, open cmd. Then enter the first line of code below, replacing the file address to your own address where the dashboard folder is stored.
+2. Then, apply the second line, which initiates a locally hosted server on your own computer.
+3. Then paste the third line into a web browser (I used Google Chrome, but it should work for any browser), and the dashboard will display
+
+Something else to note, the GeoJSON folder containing all relevant GeoJSON files was too big to upload to GitHub, or at least, I got an error when attempting to do so.
+So, I have uploaded the folder to Google Drive for you to download here: https://drive.google.com/drive/folders/1sSlM0KC6Lg0ejHHSXZrXFEGgxumwgbcd?usp=drive_link
+
+cd "C:\Users\walke\OneDrive\Desktop\CorrosionRiskModelData\Final_Dashboard"
+
+python -m http.server 8000
+
+http://localhost:8000/project_index.html
